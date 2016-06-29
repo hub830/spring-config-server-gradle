@@ -9,12 +9,15 @@ https://github.com/hub830/config-repo-foo[配置示例]
 https://github.com/hub830/spring-config-sample-gradle[客户端示例]
 
 === 配置项
+
 .application.yml
-*spring:
-*  cloud:
-*    config:
-*      server:
-*        git:
-*          uri: https://github.com/hub830/config-repo-{application}
-*          basedir: target/config
+----
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hub830/config-repo-{application}
+          basedir: target/config
+----
 通过使用固定前缘配合{application}可以实现每个项目一个版本库控制
