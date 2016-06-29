@@ -20,4 +20,4 @@ spring:
           uri: https://github.com/hub830/config-repo-{application}
           basedir: target/config
 ----
-通过使用固定前缘配合{application}可以实现每个项目一个版本库控制
+通过使用固定前缀配合{application}可以实现每个项目一个版本库控制
