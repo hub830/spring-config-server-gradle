@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: foo
+  profiles:
+    active: development,mysql
+  cloud:
+    config:
+      uri: http://localhost:${config.port:8888}
+#      label: myfeature,master
+      label: myfeature
