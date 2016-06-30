@@ -12,4 +12,9 @@ spring:
 #          searchPaths: '{application}/{profile}/{label}'
 #          searchPaths: '{label}'
           basedir: target/config
+          username: fox
+          password: 123456
 
+security:
+  user:
+    password: 123456
